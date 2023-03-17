@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import logoPic from "../images/logos/logo.png";
-import ScrollspyNav from "react-scrollspy-nav";
 
 export const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,6 +16,7 @@ export const Nav = () => {
                 setMenuOpen(false);
               }}
               href="#about"
+              rel="noopener noreferrer"
             >
               About
             </a>
@@ -25,6 +25,7 @@ export const Nav = () => {
                 setMenuOpen(false);
               }}
               href="#expertise"
+              rel="noopener noreferrer"
             >
               Skills
             </a>
@@ -33,6 +34,7 @@ export const Nav = () => {
                 setMenuOpen(false);
               }}
               href="#portfolio"
+              rel="noopener noreferrer"
             >
               Portfolio
             </a>
@@ -41,6 +43,7 @@ export const Nav = () => {
                 setMenuOpen(false);
               }}
               href="#contact"
+              rel="noopener noreferrer"
             >
               Contact
             </a>
@@ -59,6 +62,7 @@ export const Nav = () => {
                   setMenuOpen(false);
                 }}
                 href="#contact"
+                rel="noopener noreferrer"
               >
                 Contact
               </a>

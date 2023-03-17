@@ -32,12 +32,14 @@ export const Header = () => {
           <a
             href="https://www.linkedin.com/in/david-mycroft-2b421563/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img src={linkedin} alt="linkedin logo" />
           </a>
 
-          <a href="https://github.com/Mycroftd" target="_blank">
-            <img src={github} alt="github logo" />
+          <a href="https://github.com/Mycroftd" target="_blank" rel="noopener noreferrer">
+            <img src={github} alt="github logo" 
+            rel="noopener noreferrer"/>
           </a>
         </div>
       </div>

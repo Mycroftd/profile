@@ -15,8 +15,9 @@ export const Portfolio = () => {
           <img src={portfolio} alt="portfolio" />
           <h4>
             <a
-              href="https://https://euphonious-sundae-44817e.netlify.app/reviews"
+              href="https://euphonious-sundae-44817e.netlify.app/reviews"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Game Review
             </a>
@@ -26,7 +27,7 @@ export const Portfolio = () => {
         <div>
           <img src={spaceWars} alt="spaceWars" />
           <h4>
-            <a href="http://spacewarsfront.eu-4.evennode.com/" target="_blank">
+            <a href="http://spacewarsfront.eu-4.evennode.com/" target="_blank" rel="noopener noreferrer">
               Space Wars
             </a>
           </h4>
@@ -38,6 +39,7 @@ export const Portfolio = () => {
             <a
               href="https://be-nc-games-t92d.onrender.com/api/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Api for Game Reviews
             </a>

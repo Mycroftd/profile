@@ -1,8 +1,5 @@
 import React from "react";
-import logo from "../images/logos/logo.png";
 import ContactForm from "./ContactForm";
-const FORM_ENDPOINT =
-  "https://public.herotofu.com/v1/10cf45d0-c415-11ed-aae2-49fd856067b7";
 
 export const Contact = () => {
 
