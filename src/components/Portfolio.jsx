@@ -1,6 +1,6 @@
 import React from "react";
 import portfolio from "../images/portfolio/react.png";
-import spaceWars from "../images/portfolio/space wars.png";
+import computerGame from "../images/portfolio/computer game.png";
 import api from "../images/portfolio/api.png";
 
 export const Portfolio = () => {
@@ -25,13 +25,21 @@ export const Portfolio = () => {
           <p>A React App utilising a Node API</p>
         </div>
         <div>
-          <img src={spaceWars} alt="spaceWars" />
+          <img src={computerGame} alt="computer game site" />
           <h4>
-            <a href="http://spacewarsfront.eu-4.evennode.com/" target="_blank" rel="noopener noreferrer">
-              Space Wars
+            <a
+              href="https://fluffy-belekoy-21f1e2.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Computer Game Site
             </a>
           </h4>
-          <p>A two player space game using websockets and PIXI.js</p>
+          <p>
+            A react app that uses an external api to show information about
+            computer games. Uses a CORS enabledserver to allow data to be used
+            within the React application
+          </p>
         </div>
         <div>
           <img src={api} alt="portfolio" />
