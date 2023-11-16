@@ -25,7 +25,7 @@ export const Portfolio = () => {
           <p>
             A React App utilising a self created Node API. Users can browse the
             site for board games and get more information about a single game.
-            Allows users to log in and leave likes and comments.
+            Allows users to log in and leave likes and comments.<b>(Be patient when first loading as it uses a free service that needs to spinup before being used)</b>
           </p>
         </div>
         <div>
@@ -42,7 +42,7 @@ export const Portfolio = () => {
           <p>
             A react app that uses an external api to show information about
             computer games. Uses a CORS enabled server to allow data to be used
-            within the React application
+            within the React application.  It allows a user to sign up and save a list of games they are interested in. <b>(Be patient when first loading as it uses a free service that needs to spinup before being used)</b>
           </p>
         </div>
         <div>
@@ -56,7 +56,7 @@ export const Portfolio = () => {
               Api for Game Reviews
             </a>
           </h4>
-          <p>A Node REST API for game reviews.  Has data for catergories, reviews, comments and users.  Uses all CRUD operations.</p>
+          <p>A Node REST API for game reviews.  Has data for catergories, reviews, comments and users.  Uses all CRUD operations.<b>(Be patient when first loading as it uses a free service that needs to spinup before being used)</b></p>
         </div>
       </div>
     </div>
